@@ -7,7 +7,6 @@ Autoloader::directories(array(
 ));
 
 
-IoC::singleton('carabiner', function()
-{
+IoC::singleton('carabiner', function() {
     return new Carabiner();
 });

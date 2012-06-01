@@ -1,4 +1,4 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php
 /**
  * @author Philip Sturgeon
  * @created 9 Dec 2008
@@ -6,8 +6,6 @@
 
 class Curl {
 	
-    private $CI;                // CodeIgniter instance
-    
     private $responce;          // Contains the cURL responce for debug
    
     private $session;           // Contains the cURL handler for a session
